@@ -1,6 +1,6 @@
 # Dungeon Game
 
-An experiment with synthesizing LLM text generation with traditional procedural generation techniques.
+An experiment synthesizing LLM text generation with traditional procedural generation techniques.
 
 
 ## What?
