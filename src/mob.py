@@ -2,7 +2,7 @@ import random
 from item import Key
 
 class Mob:
-    """A Mob is the parent class for all PCs, NPCs, and Monsters.
+    """Mob is the parent class for all PCs, NPCs, and Monsters.
     Any autonomous entity with stats is a Mob.
     """
 

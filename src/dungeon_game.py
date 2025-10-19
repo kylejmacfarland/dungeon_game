@@ -10,6 +10,6 @@ for arg in sys.argv:
         if parts[0] == "-url":
             url = parts[1]
         elif parts[0] == "-model":
-            pass#model = parts[1]
+            model = parts[1]
 
 System().main(url, model)

@@ -6,7 +6,7 @@ class AiListener:
     def __init__(self):
         # Fallback to self-hosted ollama server.
         self.url = "http://localhost:11434/api/chat"
-        self.model = "nekodm"
+        self.model = "gemma3"
 
     def request(self, message):
         payload = {
@@ -15,8 +15,7 @@ class AiListener:
         }
 
         response = requests.post(self.url, json=payload, stream=True)
-
-        result = ""
+        
         if response.status_code == 200:
             for line in response.iter_lines(True):
                 json_data = json.loads(line)
